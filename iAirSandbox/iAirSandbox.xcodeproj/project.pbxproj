@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B84ABFC71FB98356005DCBCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B84ABFC61FB98356005DCBCC /* AppDelegate.m */; };
+		B84ABFCA1FB98356005DCBCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B84ABFC91FB98356005DCBCC /* ViewController.m */; };
+		B84ABFCD1FB98356005DCBCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84ABFCB1FB98356005DCBCC /* Main.storyboard */; };
+		B84ABFCF1FB98356005DCBCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84ABFCE1FB98356005DCBCC /* Assets.xcassets */; };
+		B84ABFD21FB98356005DCBCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84ABFD01FB98356005DCBCC /* LaunchScreen.storyboard */; };
+		B84ABFD51FB98356005DCBCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B84ABFD41FB98356005DCBCC /* main.m */; };
+		B84ABFDD1FB985C5005DCBCC /* ITWSandboxDashBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = B84ABFDC1FB985C5005DCBCC /* ITWSandboxDashBoard.m */; };
+		ED3F7C51E945EBC40518DB6B /* libPods-iAirSandbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4D4EE88471C32783B4582C /* libPods-iAirSandbox.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		989349BF5891AAAEE5EEB124 /* Pods-iAirSandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iAirSandbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-iAirSandbox/Pods-iAirSandbox.release.xcconfig"; sourceTree = "<group>"; };
+		A212DF95A9BA37F339A4330B /* Pods-iAirSandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iAirSandbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iAirSandbox/Pods-iAirSandbox.debug.xcconfig"; sourceTree = "<group>"; };
+		B84ABFC21FB98356005DCBCC /* iAirSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iAirSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84ABFC51FB98356005DCBCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B84ABFC61FB98356005DCBCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B84ABFC81FB98356005DCBCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B84ABFC91FB98356005DCBCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B84ABFCC1FB98356005DCBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B84ABFCE1FB98356005DCBCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B84ABFD11FB98356005DCBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B84ABFD31FB98356005DCBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84ABFD41FB98356005DCBCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B84ABFDB1FB985C5005DCBCC /* ITWSandboxDashBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITWSandboxDashBoard.h; sourceTree = "<group>"; };
+		B84ABFDC1FB985C5005DCBCC /* ITWSandboxDashBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITWSandboxDashBoard.m; sourceTree = "<group>"; };
+		CE4D4EE88471C32783B4582C /* libPods-iAirSandbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iAirSandbox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B84ABFBF1FB98356005DCBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3F7C51E945EBC40518DB6B /* libPods-iAirSandbox.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DBADAE10DC6C9448B2F8AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE4D4EE88471C32783B4582C /* libPods-iAirSandbox.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FC691AE597F8C360FC184FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A212DF95A9BA37F339A4330B /* Pods-iAirSandbox.debug.xcconfig */,
+				989349BF5891AAAEE5EEB124 /* Pods-iAirSandbox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B84ABFB91FB98356005DCBCC = {
+			isa = PBXGroup;
+			children = (
+				B84ABFC41FB98356005DCBCC /* iAirSandbox */,
+				B84ABFC31FB98356005DCBCC /* Products */,
+				5FC691AE597F8C360FC184FA /* Pods */,
+				10DBADAE10DC6C9448B2F8AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B84ABFC31FB98356005DCBCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B84ABFC21FB98356005DCBCC /* iAirSandbox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B84ABFC41FB98356005DCBCC /* iAirSandbox */ = {
+			isa = PBXGroup;
+			children = (
+				B84ABFC51FB98356005DCBCC /* AppDelegate.h */,
+				B84ABFC61FB98356005DCBCC /* AppDelegate.m */,
+				B84ABFC81FB98356005DCBCC /* ViewController.h */,
+				B84ABFC91FB98356005DCBCC /* ViewController.m */,
+				B84ABFCB1FB98356005DCBCC /* Main.storyboard */,
+				B84ABFCE1FB98356005DCBCC /* Assets.xcassets */,
+				B84ABFD01FB98356005DCBCC /* LaunchScreen.storyboard */,
+				B84ABFD31FB98356005DCBCC /* Info.plist */,
+				B84ABFD41FB98356005DCBCC /* main.m */,
+				B84ABFDB1FB985C5005DCBCC /* ITWSandboxDashBoard.h */,
+				B84ABFDC1FB985C5005DCBCC /* ITWSandboxDashBoard.m */,
+			);
+			path = iAirSandbox;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B84ABFC11FB98356005DCBCC /* iAirSandbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84ABFD81FB98356005DCBCC /* Build configuration list for PBXNativeTarget "iAirSandbox" */;
+			buildPhases = (
+				6CBE97D141C88DDA3B051C89 /* [CP] Check Pods Manifest.lock */,
+				B84ABFBE1FB98356005DCBCC /* Sources */,
+				B84ABFBF1FB98356005DCBCC /* Frameworks */,
+				B84ABFC01FB98356005DCBCC /* Resources */,
+				0718563DD498332C7A57C41D /* [CP] Embed Pods Frameworks */,
+				94DB808F73C5A12468B44E39 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iAirSandbox;
+			productName = iAirSandbox;
+			productReference = B84ABFC21FB98356005DCBCC /* iAirSandbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B84ABFBA1FB98356005DCBCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = itaen;
+				TargetAttributes = {
+					B84ABFC11FB98356005DCBCC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B84ABFBD1FB98356005DCBCC /* Build configuration list for PBXProject "iAirSandbox" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B84ABFB91FB98356005DCBCC;
+			productRefGroup = B84ABFC31FB98356005DCBCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B84ABFC11FB98356005DCBCC /* iAirSandbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B84ABFC01FB98356005DCBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84ABFD21FB98356005DCBCC /* LaunchScreen.storyboard in Resources */,
+				B84ABFCF1FB98356005DCBCC /* Assets.xcassets in Resources */,
+				B84ABFCD1FB98356005DCBCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0718563DD498332C7A57C41D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iAirSandbox/Pods-iAirSandbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CBE97D141C88DDA3B051C89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iAirSandbox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94DB808F73C5A12468B44E39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iAirSandbox/Pods-iAirSandbox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B84ABFBE1FB98356005DCBCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84ABFCA1FB98356005DCBCC /* ViewController.m in Sources */,
+				B84ABFD51FB98356005DCBCC /* main.m in Sources */,
+				B84ABFC71FB98356005DCBCC /* AppDelegate.m in Sources */,
+				B84ABFDD1FB985C5005DCBCC /* ITWSandboxDashBoard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B84ABFCB1FB98356005DCBCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B84ABFCC1FB98356005DCBCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B84ABFD01FB98356005DCBCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B84ABFD11FB98356005DCBCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B84ABFD61FB98356005DCBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B84ABFD71FB98356005DCBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B84ABFD91FB98356005DCBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A212DF95A9BA37F339A4330B /* Pods-iAirSandbox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XSF6V7465H;
+				INFOPLIST_FILE = iAirSandbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itaen.iAirSandbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B84ABFDA1FB98356005DCBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989349BF5891AAAEE5EEB124 /* Pods-iAirSandbox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XSF6V7465H;
+				INFOPLIST_FILE = iAirSandbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itaen.iAirSandbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B84ABFBD1FB98356005DCBCC /* Build configuration list for PBXProject "iAirSandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84ABFD61FB98356005DCBCC /* Debug */,
+				B84ABFD71FB98356005DCBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B84ABFD81FB98356005DCBCC /* Build configuration list for PBXNativeTarget "iAirSandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84ABFD91FB98356005DCBCC /* Debug */,
+				B84ABFDA1FB98356005DCBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B84ABFBA1FB98356005DCBCC /* Project object */;
+}
