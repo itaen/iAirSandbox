@@ -14,6 +14,7 @@
 		B84ABFD21FB98356005DCBCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84ABFD01FB98356005DCBCC /* LaunchScreen.storyboard */; };
 		B84ABFD51FB98356005DCBCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B84ABFD41FB98356005DCBCC /* main.m */; };
 		B84ABFDD1FB985C5005DCBCC /* ITWSandboxDashBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = B84ABFDC1FB985C5005DCBCC /* ITWSandboxDashBoard.m */; };
+		B8771C791FBA9CFF00D9D342 /* ITWIconBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B8771C781FBA9CFE00D9D342 /* ITWIconBundle.bundle */; };
 		ED3F7C51E945EBC40518DB6B /* libPods-iAirSandbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4D4EE88471C32783B4582C /* libPods-iAirSandbox.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		B84ABFD41FB98356005DCBCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B84ABFDB1FB985C5005DCBCC /* ITWSandboxDashBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITWSandboxDashBoard.h; sourceTree = "<group>"; };
 		B84ABFDC1FB985C5005DCBCC /* ITWSandboxDashBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITWSandboxDashBoard.m; sourceTree = "<group>"; };
+		B8771C781FBA9CFE00D9D342 /* ITWIconBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ITWIconBundle.bundle; sourceTree = "<group>"; };
 		CE4D4EE88471C32783B4582C /* libPods-iAirSandbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iAirSandbox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 		B84ABFC41FB98356005DCBCC /* iAirSandbox */ = {
 			isa = PBXGroup;
 			children = (
+				B8771C7B1FBA9DA400D9D342 /* ITWSandbox */,
 				B84ABFC51FB98356005DCBCC /* AppDelegate.h */,
 				B84ABFC61FB98356005DCBCC /* AppDelegate.m */,
 				B84ABFC81FB98356005DCBCC /* ViewController.h */,
@@ -94,10 +97,18 @@
 				B84ABFD01FB98356005DCBCC /* LaunchScreen.storyboard */,
 				B84ABFD31FB98356005DCBCC /* Info.plist */,
 				B84ABFD41FB98356005DCBCC /* main.m */,
-				B84ABFDB1FB985C5005DCBCC /* ITWSandboxDashBoard.h */,
-				B84ABFDC1FB985C5005DCBCC /* ITWSandboxDashBoard.m */,
 			);
 			path = iAirSandbox;
+			sourceTree = "<group>";
+		};
+		B8771C7B1FBA9DA400D9D342 /* ITWSandbox */ = {
+			isa = PBXGroup;
+			children = (
+				B84ABFDB1FB985C5005DCBCC /* ITWSandboxDashBoard.h */,
+				B84ABFDC1FB985C5005DCBCC /* ITWSandboxDashBoard.m */,
+				B8771C781FBA9CFE00D9D342 /* ITWIconBundle.bundle */,
+			);
+			path = ITWSandbox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 				B84ABFD21FB98356005DCBCC /* LaunchScreen.storyboard in Resources */,
 				B84ABFCF1FB98356005DCBCC /* Assets.xcassets in Resources */,
 				B84ABFCD1FB98356005DCBCC /* Main.storyboard in Resources */,
+				B8771C791FBA9CFF00D9D342 /* ITWIconBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
