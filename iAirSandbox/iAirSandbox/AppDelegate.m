@@ -17,6 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //启动摇一摇手势唤起沙盒文件预览页面
     [ITWSandboxDashBoard enableShakeToView];
     return YES;
 }

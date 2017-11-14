@@ -92,11 +92,7 @@
 				B84ABFC61FB98356005DCBCC /* AppDelegate.m */,
 				B84ABFC81FB98356005DCBCC /* ViewController.h */,
 				B84ABFC91FB98356005DCBCC /* ViewController.m */,
-				B84ABFCB1FB98356005DCBCC /* Main.storyboard */,
-				B84ABFCE1FB98356005DCBCC /* Assets.xcassets */,
-				B84ABFD01FB98356005DCBCC /* LaunchScreen.storyboard */,
-				B84ABFD31FB98356005DCBCC /* Info.plist */,
-				B84ABFD41FB98356005DCBCC /* main.m */,
+				B8771C7C1FBAC19300D9D342 /* Support files */,
 			);
 			path = iAirSandbox;
 			sourceTree = "<group>";
@@ -109,6 +105,18 @@
 				B8771C781FBA9CFE00D9D342 /* ITWIconBundle.bundle */,
 			);
 			path = ITWSandbox;
+			sourceTree = "<group>";
+		};
+		B8771C7C1FBAC19300D9D342 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				B84ABFCB1FB98356005DCBCC /* Main.storyboard */,
+				B84ABFCE1FB98356005DCBCC /* Assets.xcassets */,
+				B84ABFD01FB98356005DCBCC /* LaunchScreen.storyboard */,
+				B84ABFD31FB98356005DCBCC /* Info.plist */,
+				B84ABFD41FB98356005DCBCC /* main.m */,
+			);
+			path = "Support files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

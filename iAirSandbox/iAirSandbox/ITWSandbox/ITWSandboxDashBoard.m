@@ -14,7 +14,6 @@
 
 #define ITWSandboxIconName(file) [@"ITWIconBundle.bundle" stringByAppendingPathComponent:file]
 
-
 @interface ITWPreviewItem : NSObject <QLPreviewItem>
 
 @property (nonatomic, nullable, readonly) NSURL *previewItemURL;
