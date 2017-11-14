@@ -20,7 +20,6 @@ static ITWSandboxDashBoard *p_dashboard;
         }
     }
     ITWSandboxRootViewController *vc = [[ITWSandboxRootViewController alloc] init];
-    vc.view.backgroundColor = [UIColor redColor];
     ITWSandboxDashBoard *dashboard = [[ITWSandboxDashBoard alloc] initWithRootViewController:vc];
     p_dashboard = dashboard;
     
@@ -33,12 +32,13 @@ static ITWSandboxDashBoard *p_dashboard;
 
 + (void)popUpDashboard {
     if (p_dashboard) {
-        [[ITWSandboxDashBoard shared] dismissViewControllerAnimated:YES completion:nil];
-        [self clearShared];
-        return;
+        [[ITWSandboxDashBoard shared] dismissViewControllerAnimated:YES completion:^{
+            [self clearShared];
+        }];
+    }else{
+        UIViewController *vc = [[[UIApplication sharedApplication].delegate window] rootViewController];
+        [vc presentViewController:[ITWSandboxDashBoard shared] animated:YES completion:nil];
     }
-    UIViewController *vc = [[[UIApplication sharedApplication].delegate window] rootViewController];
-    [vc presentViewController:[ITWSandboxDashBoard shared] animated:YES completion:nil];
 }
 
 static BOOL enableShakePopUp = NO;

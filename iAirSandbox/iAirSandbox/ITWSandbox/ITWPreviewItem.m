@@ -37,7 +37,7 @@
     if (_previewItemURL) {
         return _previewItemURL;
     }
-    _previewItemURL = [NSURL URLWithString:self.fullpath];
+    _previewItemURL = [NSURL fileURLWithPath:self.fullpath];
     return _previewItemURL;
 }
 

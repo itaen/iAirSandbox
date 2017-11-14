@@ -10,6 +10,7 @@
 		B81AACC81FBAEA1500380C6C /* ITWPreviewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B81AACC71FBAEA1500380C6C /* ITWPreviewItem.m */; };
 		B81AACCB1FBAEE4600380C6C /* ITWDirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81AACCA1FBAEE4600380C6C /* ITWDirectoryViewController.m */; };
 		B81AACCE1FBAEFF000380C6C /* ITWSandboxRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81AACCD1FBAEFF000380C6C /* ITWSandboxRootViewController.m */; };
+		B81AACE01FBAF6BD00380C6C /* ITWPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81AACDF1FBAF6BD00380C6C /* ITWPreviewViewController.m */; };
 		B84ABFC71FB98356005DCBCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B84ABFC61FB98356005DCBCC /* AppDelegate.m */; };
 		B84ABFCA1FB98356005DCBCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B84ABFC91FB98356005DCBCC /* ViewController.m */; };
 		B84ABFCD1FB98356005DCBCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84ABFCB1FB98356005DCBCC /* Main.storyboard */; };
@@ -30,6 +31,8 @@
 		B81AACCA1FBAEE4600380C6C /* ITWDirectoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITWDirectoryViewController.m; sourceTree = "<group>"; };
 		B81AACCC1FBAEFF000380C6C /* ITWSandboxRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITWSandboxRootViewController.h; sourceTree = "<group>"; };
 		B81AACCD1FBAEFF000380C6C /* ITWSandboxRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITWSandboxRootViewController.m; sourceTree = "<group>"; };
+		B81AACDE1FBAF6BD00380C6C /* ITWPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITWPreviewViewController.h; sourceTree = "<group>"; };
+		B81AACDF1FBAF6BD00380C6C /* ITWPreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITWPreviewViewController.m; sourceTree = "<group>"; };
 		B84ABFC21FB98356005DCBCC /* iAirSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iAirSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84ABFC51FB98356005DCBCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B84ABFC61FB98356005DCBCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 				B81AACCD1FBAEFF000380C6C /* ITWSandboxRootViewController.m */,
 				B81AACC91FBAEE4600380C6C /* ITWDirectoryViewController.h */,
 				B81AACCA1FBAEE4600380C6C /* ITWDirectoryViewController.m */,
+				B81AACDE1FBAF6BD00380C6C /* ITWPreviewViewController.h */,
+				B81AACDF1FBAF6BD00380C6C /* ITWPreviewViewController.m */,
 				B81AACC61FBAEA1500380C6C /* ITWPreviewItem.h */,
 				B81AACC71FBAEA1500380C6C /* ITWPreviewItem.m */,
 			);
@@ -262,6 +267,7 @@
 			files = (
 				B84ABFCA1FB98356005DCBCC /* ViewController.m in Sources */,
 				B81AACCB1FBAEE4600380C6C /* ITWDirectoryViewController.m in Sources */,
+				B81AACE01FBAF6BD00380C6C /* ITWPreviewViewController.m in Sources */,
 				B84ABFD51FB98356005DCBCC /* main.m in Sources */,
 				B81AACC81FBAEA1500380C6C /* ITWPreviewItem.m in Sources */,
 				B81AACCE1FBAEFF000380C6C /* ITWSandboxRootViewController.m in Sources */,

@@ -14,7 +14,8 @@
 UITableViewDelegate,
 UITableViewDataSource,
 QLPreviewControllerDelegate,
-QLPreviewControllerDataSource
+QLPreviewControllerDataSource,
+UIDocumentInteractionControllerDelegate
 >
 
 @property (nonatomic, strong, readonly) UITableView *tableView;

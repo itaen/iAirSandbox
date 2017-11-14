@@ -25,11 +25,15 @@
     self.title = @"沙盒阅览器";
     [self.view addSubview:self.tableView];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"关闭" style:UIBarButtonItemStyleDone target:self action:@selector(actionClose:)];
+    self.view.backgroundColor = [UIColor grayColor];
+
 }
 
 - (void)actionClose:(UIButton *)sender {
-    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
-    [ITWSandboxDashBoard clearShared];
+    if (self.presentingViewController) {
+        [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+        [ITWSandboxDashBoard clearShared];
+    }
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView

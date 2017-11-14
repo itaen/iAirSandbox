@@ -8,6 +8,7 @@
 
 #import "ITWDirectoryViewController.h"
 #import "ITWSandboxDashBoard.h"
+#import "ITWPreviewViewController.h"
 
 @implementation ITWDirectoryViewController
 @synthesize tableView = _tableView;
@@ -45,8 +46,10 @@
 }
 
 - (void)actionClose:(UIButton *)sender {
-    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
-    [ITWSandboxDashBoard clearShared];
+    if (self.presentingViewController) {
+        [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+        [ITWSandboxDashBoard clearShared];
+    }
 }
 
 #pragma mark - UITableViewDataSource &UITableViewDelegate
@@ -88,14 +91,17 @@
                 NSLog(@"previewItemURL is not FILE URL");
             }
             //pop up previewViewController,action sheet to send file to other app or tools
-            
+            ITWPreviewViewController *previewVC = [[ITWPreviewViewController alloc] initWithPreviewItem:item];
+
+            UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:previewVC];
+            [self presentViewController:nav animated:YES completion:nil];
         }
         
         self.indexPath = indexPath;
         QLPreviewController *previewVC = [QLPreviewController new];
         previewVC.dataSource = self;
         previewVC.delegate = self;
-        [self presentViewController:previewVC animated:YES completion:nil];
+        [self presentViewController:previewVC animated:YES completion:NULL];
     }
 }
 
@@ -112,6 +118,21 @@
 - (BOOL)previewController:(QLPreviewController *)controller shouldOpenURL:(NSURL *)url forPreviewItem:(id<QLPreviewItem>)item {
     return YES;
 }
+
+#pragma mark - UIDocumentInteractionController
+
+- (UIViewController *)documentInteractionControllerViewControllerForPreview:(UIDocumentInteractionController *)controller{
+    return self;
+}
+
+- (UIView *)documentInteractionControllerViewForPreview:(UIDocumentInteractionController *)controller{
+    return self.view;
+}
+
+- (CGRect)documentInteractionControllerRectForPreview:(UIDocumentInteractionController *)controller{
+    return self.view.bounds;
+}
+
 
 #pragma mark - Getters
 
