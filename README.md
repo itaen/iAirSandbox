@@ -1,7 +1,7 @@
 # iAirSandbox
 ## How To Get Started
 
-- check out thie project
+- check out project
 - pod install environment
 - run example in your simulator or iOS device
 - shake device will get a pop up window
@@ -31,6 +31,11 @@
 }
 
 ```
+
+## Communication
+
+- Fire issues in this project
+- Email me :  itaen123@gmail.com
 
 ## License
 
