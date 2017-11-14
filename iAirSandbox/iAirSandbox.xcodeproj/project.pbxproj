@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B81AACC81FBAEA1500380C6C /* ITWPreviewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B81AACC71FBAEA1500380C6C /* ITWPreviewItem.m */; };
+		B81AACCB1FBAEE4600380C6C /* ITWDirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81AACCA1FBAEE4600380C6C /* ITWDirectoryViewController.m */; };
+		B81AACCE1FBAEFF000380C6C /* ITWSandboxRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81AACCD1FBAEFF000380C6C /* ITWSandboxRootViewController.m */; };
 		B84ABFC71FB98356005DCBCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B84ABFC61FB98356005DCBCC /* AppDelegate.m */; };
 		B84ABFCA1FB98356005DCBCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B84ABFC91FB98356005DCBCC /* ViewController.m */; };
 		B84ABFCD1FB98356005DCBCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84ABFCB1FB98356005DCBCC /* Main.storyboard */; };
@@ -21,6 +24,12 @@
 /* Begin PBXFileReference section */
 		989349BF5891AAAEE5EEB124 /* Pods-iAirSandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iAirSandbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-iAirSandbox/Pods-iAirSandbox.release.xcconfig"; sourceTree = "<group>"; };
 		A212DF95A9BA37F339A4330B /* Pods-iAirSandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iAirSandbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iAirSandbox/Pods-iAirSandbox.debug.xcconfig"; sourceTree = "<group>"; };
+		B81AACC61FBAEA1500380C6C /* ITWPreviewItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITWPreviewItem.h; sourceTree = "<group>"; };
+		B81AACC71FBAEA1500380C6C /* ITWPreviewItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITWPreviewItem.m; sourceTree = "<group>"; };
+		B81AACC91FBAEE4600380C6C /* ITWDirectoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITWDirectoryViewController.h; sourceTree = "<group>"; };
+		B81AACCA1FBAEE4600380C6C /* ITWDirectoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITWDirectoryViewController.m; sourceTree = "<group>"; };
+		B81AACCC1FBAEFF000380C6C /* ITWSandboxRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITWSandboxRootViewController.h; sourceTree = "<group>"; };
+		B81AACCD1FBAEFF000380C6C /* ITWSandboxRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITWSandboxRootViewController.m; sourceTree = "<group>"; };
 		B84ABFC21FB98356005DCBCC /* iAirSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iAirSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84ABFC51FB98356005DCBCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B84ABFC61FB98356005DCBCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,9 +109,15 @@
 		B8771C7B1FBA9DA400D9D342 /* ITWSandbox */ = {
 			isa = PBXGroup;
 			children = (
+				B8771C781FBA9CFE00D9D342 /* ITWIconBundle.bundle */,
 				B84ABFDB1FB985C5005DCBCC /* ITWSandboxDashBoard.h */,
 				B84ABFDC1FB985C5005DCBCC /* ITWSandboxDashBoard.m */,
-				B8771C781FBA9CFE00D9D342 /* ITWIconBundle.bundle */,
+				B81AACCC1FBAEFF000380C6C /* ITWSandboxRootViewController.h */,
+				B81AACCD1FBAEFF000380C6C /* ITWSandboxRootViewController.m */,
+				B81AACC91FBAEE4600380C6C /* ITWDirectoryViewController.h */,
+				B81AACCA1FBAEE4600380C6C /* ITWDirectoryViewController.m */,
+				B81AACC61FBAEA1500380C6C /* ITWPreviewItem.h */,
+				B81AACC71FBAEA1500380C6C /* ITWPreviewItem.m */,
 			);
 			path = ITWSandbox;
 			sourceTree = "<group>";
@@ -246,7 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B84ABFCA1FB98356005DCBCC /* ViewController.m in Sources */,
+				B81AACCB1FBAEE4600380C6C /* ITWDirectoryViewController.m in Sources */,
 				B84ABFD51FB98356005DCBCC /* main.m in Sources */,
+				B81AACC81FBAEA1500380C6C /* ITWPreviewItem.m in Sources */,
+				B81AACCE1FBAEFF000380C6C /* ITWSandboxRootViewController.m in Sources */,
 				B84ABFC71FB98356005DCBCC /* AppDelegate.m in Sources */,
 				B84ABFDD1FB985C5005DCBCC /* ITWSandboxDashBoard.m in Sources */,
 			);

@@ -14,4 +14,6 @@
 + (instancetype)shared;
 
 + (void)enableShakeToView;
+
++ (void)clearShared;
 @end
