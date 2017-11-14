@@ -7,15 +7,14 @@
 - shake device will get a pop up window
 - that's all, view or send u file to computer
 
+## Requirements
+
+- iOS 9 above
+
 ## Installation
 
 - check out project
 - import all files in ITWSandbox directory to your project
-
-
-
-## Requirements
-- iOS 9 above
 
 
 ## Usage
